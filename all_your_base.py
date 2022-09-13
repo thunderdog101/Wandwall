@@ -1,6 +1,6 @@
 # def rebase(input_base, digits, output_base):
 #     pass
-# remove the function piece for now...  working on the algorithm first put back into function form
+# remove the function piece for now...  working on the algorithm first put back into function form later
 import numpy as np
 import math
 
