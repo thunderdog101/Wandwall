@@ -6,6 +6,16 @@
 import numpy as np
 import math
 
+######  To simplify things for also including alphanumeric characters, one can simply use the Python function:  
+######    result = int("someNumber", Base)   
+##               this works with integers and alphanumeric characters (used if going beyond base 10)
+
+#####   If there's time I can modify the algorithms below to do the entire function.  Right now the algorithms I created below (which work) can
+#####    convert any number to base 10...then then that base 10 number to another base as long as alphanumerica characters are not used.
+#############################################################################################################################################
+
+
+
 #  use the formula from the Wiki page.  First step is to convert arbitrary base number to base_10;  then convert the base_10 number to another base
 #  Algorithm:  (a3a2a1)b = (a3*b^n-1) + (a2*b^n-2) (a1*b^b-3) + (a0*b^n-4)   where n is length of original number input by user (in this example n=4)
 # convert a number input by user into an array of integers
